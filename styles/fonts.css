@@ -1,0 +1,57 @@
+body {
+  font-family: "Noto Serif", serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  line-height: 1.1;
+  margin: 1rem 0;
+}
+
+h1 {
+  font-family: "Noto Serif", serif;
+  font-size: 4vw;
+  font-weight: 600;
+  margin: 1.5rem 0;
+}
+
+h2 {
+  font-family: "Noto Serif", serif;
+  font-size: 1.2rem;
+  font-weight:700;
+  -webkit-text-stroke: 0.3px;
+  padding: 1.5rem 1rem 1rem 1rem;
+}
+
+h3 {
+  font-family: "Noto Serif", serif;
+  font-size: 1rem;
+  font-weight:600;
+  padding: 1rem 1rem 0 1rem;
+}
+
+h4, h5, h6 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+p {
+  font-family: "Noto Serif Display", serif;
+  font-size: 1rem;
+  font-weight: 100;
+  line-height: 1.2;
+}
+
+
+button {
+  font-size: 1rem;
+  font-weight: 500;
+}

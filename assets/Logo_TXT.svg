@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 921.43 127.56">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #174f9c;
+      }
+
+      .cls-3 {
+        font-family: NotoSerifDisplay-Bold, 'Noto Serif Display';
+        font-size: 100px;
+        font-weight: 700;
+      }
+
+      .cls-4 {
+        fill: #83aef1;
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        letter-spacing: -.09em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <text class="cls-3" transform="translate(31.52 85.7)"><tspan class="cls-1" x="0" y="0">Beck</tspan><tspan class="cls-2" x="240.6" y="0">y</tspan><tspan class="cls-1" x="289.5" y="0">.L</tspan><tspan x="384.3" y="0"> </tspan><tspan class="cls-4" x="406.79" y="0">Portfolio</tspan></text>
+  </g>
+</svg>

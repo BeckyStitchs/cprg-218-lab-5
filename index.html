@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styles/reset.css">
+  <link rel="stylesheet" type="text/css" href="styles/fonts.css">
+  <link rel="stylesheet" type="text/css" href="styles/global.css">
+  <link rel="stylesheet" type="text/css" href="styles/styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto Serif Display">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto Serif">
+  <script src="https://kit.fontawesome.com/5b723f4e53.js" crossorigin="anonymous"></script>
+  <title>Becky.L Portfolio</title>
+  <link rel="icon" type="image/x-icon" href="assets/Becky Photo.png">
+</head>
+<body>
+  <section class="navigator-container">
+    <div class="navigator-content">
+      <img src="assets/Logo_TXT.svg" alt="becky's text logo in navy blue and light blue colour">
+      <nav id="home">
+        <a href="#home"><i class="fa-solid fa-house"></i>Home</a>
+        <a href="#about"><i class="fa-solid fa-user"></i>About</a>
+        <a href="#projects"><i class="fa-solid fa-folder"></i>Projects</a>
+        <a href="/resume/"><i class="fa-solid fa-file"></i>Resume</a>
+        <a href="/contact/"><i class="fa-solid fa-address-book"></i>Contact</a>
+      </nav>
+    </div>
+  </section>
+  <section class="hero-container">
+      <img src="assets/hero-image.svg" alt="dark blue colour background with geometric shapes">
+    <div class="hero-content">
+      <img src="assets/Logo_WH.svg" alt="becky's logo in white colour">
+      <h1>Peaceful. Simple. Unique</h1>
+      <p>Becky.L Portfolio</p>
+    </div>
+  </section>
+  <section id="about" class="content-container">
+    <div class="content-video">
+      <iframe class="youtube" 
+    src="https://www.youtube.com/embed/OUbMIJBh-S0?si=iAb56OuvKFQtiUnP" title="IntroVideo_BeckyLi" 
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+    picture-in-picture; web-share" allowfullscreen>
+    </iframe>
+    </div>
+    <div class="content-content">
+      <h2>About Me</h2>
+      <p>Hi there! I'm Becky, a highly skilled and passionate UX designer and video editor. 
+        With my extensive design and video production background, I bring a unique blend of 
+        creativity and technical expertise to every project I undertake. My ultimate goal is 
+        to create captivating digital experiences that tell compelling stories through design, 
+        and I'm confident in my ability to do so. On my portfolio, you'll find a handpicked 
+        selection of my work that showcases my skills, creativity, and dedication to delivering 
+        exceptional results. I'm always eager to collaborate on exciting new projects, so please 
+        don't hesitate to reach out!
+      <br>
+      <a href="/resume/"><button>Resume <i class="fa fa-angle-right"></i></button></a>
+      </p>
+    </div>
+  </section>
+  <section id="cardContainer" class="card-container">
+      <h2>Featured Projects</h2>
+    <div class="box" style="text-align: center;">
+      <input id="searchBox" class="search-box" type="text" name="search" placeholder="Search..">
+    </div>
+    <div id="cardContent" class="card-content">
+    </div>
+  </section>
+  <section id="skills" class="accordion-container">
+      <div class="main-title">Skills & Techniques</div>
+      <input type="checkbox" id="radioUX" name="accordion"/>
+      <label class="item" for="radioUX">
+        <div class="title">User Experience Deisgn</div>
+        <div class="accordion-content">
+          <p>・User Experience Research</p>
+          <p>・Usability & Prototyping Testing</p>
+          <p>・Interactive Feature Hierarchy</p>
+          <p>・Design Workflow</p>
+          <p>・Storytelling & Product Management</p>
+        </div>
+      </label>
+      <input type="checkbox" id="radioUI" name="accordion"/>
+      <label class="item" for="radioUI">
+        <div class="title">User Interface Deisgn</div>
+        <div class="accordion-content">
+          <p>・User Interface Design Principles</p>
+          <p>・Wireframing</p>
+          <p>・Prototyping</p>
+          <p>・Responsive Design</p>
+          <p>・User Interface Animation</p>
+          <p>・Wireframing Tools: Adobe UX, Figma, framer</p>
+        </div>
+      </label>
+      <input type="checkbox" id="radioWD" name="accordion"/>
+      <label class="item" for="radioWD">
+        <div class="title">Web Development</div>
+        <div class="accordion-content">
+          <p>・HTML5, CSS, JavaScript</p>
+          <p>・Version Control</p>
+          <p>・Responsive Web Design</p>
+          <p>・Web Builder Platforms</p>
+          <p>・Accessibility & Usability</p>
+          <p>・Web Development Tools: GitHub, WIX</p>
+        </div>
+      </label>
+      <input type="checkbox" id="radioVC" name="accordion"/>
+      <label class="item" for="radioVC">
+        <div class="title">Visual Communication</div>
+        <div class="accordion-content">
+          <p>・Colour Theory</p>
+          <p>・Typography Principles</p>
+          <p>・Digital & Print Layout Design</p>
+          <p>・2D Graphic Design</p>
+          <p>・Branding Production</p>
+          <p>・Visual Design Tools: Adobe Creative Suite</p>
+        </div>
+      </label>
+      <input type="checkbox" id="radioPM" name="accordion"/>
+      <label class="item" for="radioPM">
+        <div class="title">Product Management</div>
+        <div class="accordion-content">
+          <p>・Market Research</p>
+          <p>・Product & MArket Strategy</p>
+          <p>・Project Prioritization</p>
+          <p>・Project Roadmapping</p>
+          <p>・Agile Methodologies</p>
+          <p>・Project Management Tools: Monday, Roadmunk, Productboard</p>
+        </div>
+      </label>
+      <input type="checkbox" id="radioVP" name="accordion"/>
+      <label class="item" for="radioVP">
+        <div class="title">Video Production</div>
+        <div class="accordion-content">
+          <p>・Storyboarding</p>
+          <p>・Scriptwriting</p>
+          <p>・Video Editing</p>
+          <p>・Motion Graphics</p>
+          <p>・Sound & Audio Production</p>
+          <p>・Lighting Techniques</p>
+          <p>・Video Editing Tools: Adobe Creative Suite</p>
+        </div>
+      </label>
+  </section>
+  <section class="footer-container">
+    <img class="footer-logo" src="assets/Logo_BK.svg" alt="becky's logo in black colour">
+    <div class="footer-information">
+      <h2>Information</h2>
+      <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script>
+        Becky. L Portfolio All rights reserved. 
+      <br>
+        This website's content, design, and images are protected by copyright law and may not be reproduced,
+       distributed, transmitted, displayed, or otherwise used without Becky. L's prior written consent. 
+       </p>
+    </div>
+    <div class="footer-link">
+      <h2>Related Links</h2>
+      <ul>
+        <li><a href="/home/">Home</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/projects/">Projects</a></li>
+        <li><a href="/resume/">Resume</a></li>
+        <li><a href="/contact/">Contact</a></li>
+      </ul>
+    </div>
+    <div class="contact-link">  
+      <h2>Contact Me</h2>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/pui-ki-li-2294ab1a6/" target="_blank"><img src="assets/linkedin_state.svg" alt="Becky's LinkedIn Profile"</a></li>
+        <li><a href="https://teams.microsoft.com/l/chat/0/0?users=puiki.li@edu.sait.ca" target="_blank"><img src="assets/teams_state.svg" alt="Becky's Microsoft Team chat"</a></li>
+        <li><a href="mailto:puiki.li@edu.sait.ca" target="_blank"><img src="assets/email_state.svg" alt="Becky's SAIT email address"</a></li>
+        <li><a href="https://github.com/BeckyStitchs" target="_blank"><img src="assets/github_state.svg" alt="Becky's GitHub Profile"</a></li>
+        <li><a href="https://www.youtube.com/@becky.l1971" target="_blank"><img src="assets/youtube_state.svg" alt="Becky's YouTube Channel"</a></li>
+    </div>
+  </section>
+  <script src="./js/main.js" defer></script>
+</body>
+</html>
